@@ -17,7 +17,6 @@ db = SQLAlchemy(app)
 def home():
     return render_template("home.html")
 
-
 @app.route('/loginuser')
 def loginuser():
     return render_template("loginuser.html")
